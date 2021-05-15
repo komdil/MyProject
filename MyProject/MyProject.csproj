@@ -6,7 +6,6 @@
     <OutputType>Library</OutputType>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <OutputPath>..\Output\$(Configuration)\MyProject\Demo\</OutputPath>
-    <UseCommonOutputDirectory Condition="'$(BuildingInsideVisualStudio)' == 'true'">true</UseCommonOutputDirectory>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyProject.Model\MyProject.Model.csproj" />
